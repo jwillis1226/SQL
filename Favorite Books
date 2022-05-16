@@ -1,13 +1,12 @@
-/**Favorite Books list:
-The Last Song by Nicholas Sparks
-Untamed by Glennon Doyle
-You Are A Badass by Jen Sincero
+/**Favorite Book list:
+The Last Song (5)
+Untamed (4)
+You Are A Badass (5)    
 **/
 
-CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY, title TEXT, rating INTEGER);
+CREATE TABLE favoritebooks (id INTEGER PRIMARY KEY, name TEXT, rating integer );
 
 INSERT INTO favoritebooks VALUES (1, "The Last Song", 5);
 INSERT INTO favoritebooks VALUES (2, "Untamed", 4);
 INSERT INTO favoritebooks VALUES (3, "You Are A Badass", 5);
 SELECT * FROM favoritebooks;
-
